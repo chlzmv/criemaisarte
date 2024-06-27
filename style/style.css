@@ -3,7 +3,8 @@
 
 * {
     margin: 0;
-    font-family: "Mulish", sans-serif;
+    padding: 0;
+    box-sizing: border-box;
     letter-spacing: 0.6px;
     color: rgb(0, 0, 0);
 }
@@ -29,21 +30,20 @@ header {
     box-shadow: 0 2px 3px -2px #4b4a52;
     padding-left: 15%;
     padding-right: 15%;
+    justify-content: space-between;
 }
 
 header>nav {
-    display: flex;
-    justify-content: center;
+    display: block;
 }
 
 .menu {
     display: flex;
     list-style-type: none;
-    margin-left: 0;
     align-items: center;
 }
 
-.imgLogo {
+header>img{
     height: 4em;
     float: left;
 }
@@ -52,11 +52,11 @@ header>nav {
     display: none;
     font-size: 45px;
     cursor: pointer;
+    
 }
 
-.menu>li {
-    margin-top: 3px;
-    margin-right: 3em;
+.menu>ul {
+    justify-content: space-around;
 }
 
 .menu>li>a {
@@ -111,6 +111,7 @@ h5>a {
 p,
 a,
 h5>a {
+    font-family: "Mulish", sans-serif;
     font-size: 18.7px;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -245,14 +246,10 @@ footer>p {
         flex-direction: column;
         width: 100%;
         background-color: #fff;
-        margin-left: 0;
-    }
-
-    header>nav {
-        justify-content: space-between;
     }
     .menu-icon {
         display: block;
+        float: right;
     }
 
     .menu.show {
@@ -338,13 +335,13 @@ footer>p {
         max-width: 100%;
     }
 
-    header>nav {
-        justify-content: space-between;
-    }
-
     li {
         text-decoration: none;
         list-style: none;
+    }
+
+    header>nav {
+        display: block;
     }
 
     .menu {
@@ -357,6 +354,7 @@ footer>p {
 
     .menu-icon {
         display: block;
+        float: right;
     }
 
     .menu.show {
