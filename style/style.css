@@ -29,9 +29,6 @@ header {
     box-shadow: 0 2px 3px -2px #4b4a52;
     padding-left: 15%;
     padding-right: 15%;
-    display: flex; /* Adicionado */
-    flex-direction: column; /* Adicionado */
-    align-items: center; /* Adicionado */
 }
 
 header>nav {
@@ -237,13 +234,6 @@ footer>p {
         max-width: 100%;
     }
 
-    header > nav {
-        justify-content: center; /* Modificado */
-
-        align-items: center; /* Adicionado */
-        width: 100%; /* Adicionado */
-    }
-
 
     li {
         text-decoration: none;
@@ -258,6 +248,9 @@ footer>p {
         margin-left: 0;
     }
 
+    header>nav {
+        justify-content: space-between;
+    }
     .menu-icon {
         display: block;
     }
