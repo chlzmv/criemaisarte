@@ -30,7 +30,7 @@ header {
     box-shadow: 0 2px 3px -2px #4b4a52;
     padding-left: 15%;
     padding-right: 15%;
-    justify-content: space-between;
+    
 }
 
 header>nav {
@@ -39,15 +39,20 @@ header>nav {
 
 .menu {
     display: flex;
-    list-style-type: none;
+    justify-content: space-around;
     align-items: center;
+    max-width: 500px;
 }
+
 
 header>img{
     height: 4em;
     float: left;
 }
-
+.space:first-child {
+    width: 5em;
+    background-color: #8d8c94;
+}
 .menu-icon {
     display: none;
     font-size: 45px;
