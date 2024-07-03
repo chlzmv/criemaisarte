@@ -49,14 +49,6 @@ nav>ul>li{
     margin: 1.5em ;
 }
 
-header>img{
-    height: 4em;
-    float: left;
-    margin: 0 15%;
-    
-
-}
-
 .menu-icon {
     display: none;
     font-size: 45px;
@@ -246,6 +238,10 @@ footer>p {
         list-style: none;
     }
 
+    .imgLogo{
+        margin: 0 -15%;
+    }
+
     .menu {
         display: none;
         flex-direction: column;
@@ -270,6 +266,7 @@ footer>p {
         display: block;
         padding: 1em;
     }
+
 
     .image {
         display: flex;
