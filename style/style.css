@@ -28,31 +28,35 @@ footer {
 header {
     grid-column-start: span 5;
     box-shadow: 0 2px 3px -2px #4b4a52;
-    padding-left: 15%;
     padding-right: 15%;
+    padding-left: 15%;
     
 }
 
 header>nav {
     display: block;
+    margin: 0 auto; 
+    
+    
 }
 
-.menu {
+nav>ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
-    max-width: 500px;
 }
-
+nav>ul>li{
+    margin: 1.5em ;
+}
 
 header>img{
     height: 4em;
     float: left;
+    margin: 0 15%;
+    
+
 }
-.space:first-child {
-    width: 5em;
-    background-color: #8d8c94;
-}
+
 .menu-icon {
     display: none;
     font-size: 45px;
@@ -60,9 +64,6 @@ header>img{
     
 }
 
-.menu>ul {
-    justify-content: space-around;
-}
 
 .menu>li>a {
     font-size: 15px;
