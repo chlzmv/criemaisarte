@@ -342,6 +342,10 @@ footer>p {
         list-style: none;
     }
 
+    .imgLogo{
+        margin: 0 -15%;
+    }
+
     header>nav {
         display: block;
     }
