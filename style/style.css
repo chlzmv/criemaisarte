@@ -37,7 +37,10 @@ header>nav {
     display: block;
     margin: 0 auto; 
     
-    
+}
+
+header>img{
+    margin: 0 15%;
 }
 
 nav>ul {
@@ -238,8 +241,8 @@ footer>p {
         list-style: none;
     }
 
-    .imgLogo{
-        margin: 0 -15%;
+    header>img{
+        margin: 0;
     }
 
     .menu {
@@ -342,14 +345,15 @@ footer>p {
         list-style: none;
     }
 
-    .imgLogo{
-        margin: 0 -15%;
-    }
 
     header>nav {
         display: block;
     }
 
+    header>img{
+        margin: 0;
+    } 
+    
     .menu {
         display: none;
         flex-direction: column;
